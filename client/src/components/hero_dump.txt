@@ -1,0 +1,46 @@
+
+<div className="max-w-[500px] h-[100vh]">
+        {/* top */}
+        <div className="relative w-10/10 h-[45vh]">
+
+            <div className="w-10/10 flex absolute top-[25px] left-[25px] justify-between pr-10">
+                <img src="/image-removebg-preview.png" alt="safe haven logo" className="w-[60px] h-[60px] z-3 bg-white  top-[10px] left-[10px] rounded-full" />
+                <div className="text-center justify-start text-black text-3xl font-normal font-['ADLaM_Display'] z-3">Safe haven</div>
+            </div>
+            <div className="h-[45vh] bg-cover bg-[url('/hero.svg')] w-10/10 z-2 rounded-[40px] absolute top-0"></div>
+            <div className="bg-white w-10/10 h-10/10  rounded-bl-[50px] rounded-br-[50px] absolute bottom-0"></div>
+            
+            {/* img text */}
+            <div className="w-auto h-28 relative top-[210px] left-0 z-10">
+                <div className="inline left-[10px] top-0 absolute text-center justify-start text-black text-xs font-light font-['Inter']">Make a difference.</div>
+                <div className="left-[40px] top-[89px] absolute text-center justify-start text-black text-2xl font-black font-['Inter']">Stay safe.</div>
+                <div className="w-20 left-[0px] top-[45px] absolute text-center justify-start text-black text-base font-bold font-['Inter']">Speak up.</div>
+            </div>
+
+        </div>
+        {/* bottom */}
+        <div className="-mt-[50px] w-10/10 h-[50vh] bg-gradient-to-b from-pink-400 to-pink-400/80 rounded-bl-[131px] rounded-br-[45px] -z-1 flex flex-col gap-9 bg-amber-700 relative" >
+            <div className="h-[60px]"></div>
+            <div className=" place-items-center w-10/10  mt-0 flex flex-col gap-3">
+                <div className="w-72 text-center justify-start text-white text-3xl font-normal font-['ADLaM_Display']">Report Unsafe Uber Drivers in Your Area</div>
+                <div className="w-72 text-center justify-start text-white text-lg font-normal font-['Inter']">Help create a safer ride experience by sharing and checking driver reports</div>
+            </div>
+            <div className=" w-72 place-self-center">
+                <Btn bgColor="bg-[radial-gradient(ellipse_50.00%_50.00%_at_50.00%_50.00%,_#C81563_0%,_#980F4B_100%)]" text="Report Driver" />
+            </div>
+
+        {/* buttons */}
+            {/* <div className="w-9/10 h-[150px] place-self-center mt-10 grid grid-cols-[150px_1fr] grid-rows-[100px_auto] "> */}
+                {/* <div className="col-start-1 row-start-1 place-self-center self-center">
+                    <Btn/>
+                </div> */}
+            {/* </div> */}
+                {/* <div className="col-start-2 row-start-2 justify-items-end bg-white w-10/10">
+                    <Btn/>
+                </div> */}
+        <div className="bg-white absolute -bottom-0 right-0 p-5 rounded-tl-[40px]">
+            <Btn bgColor="bg-black" text="Check Driver"/>
+        </div>
+        </div>
+
+    </div>
